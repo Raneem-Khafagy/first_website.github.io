@@ -1,11 +1,7 @@
-
-
 .hero-full-container .hero-full-wrapper .text-content {
   vertical-align: middle;
   display: table-cell
 }
-
-
 
 .hero-full-container {
   height: 100vh
@@ -23,8 +19,6 @@
   min-height: 100vh
 }
 
-
-
 .homepage {
   margin-left: 0px;
   margin-right: 0px
@@ -38,7 +32,6 @@
 .homepage:after {
   clear: both
 }
-
 
 .container {
   margin-right: auto;
