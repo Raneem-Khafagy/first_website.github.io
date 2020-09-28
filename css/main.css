@@ -197,15 +197,6 @@ p {
 a.text-primary:focus, a.text-primary:hover {
   color: #0015cc
 }
-
-.text-success {
-  color: #fff
-}
-
-a.text-success:focus, a.text-success:hover {
-  color: #e6e6e6
-}
-
 .text-info {
   color: #31708f
 }
@@ -222,11 +213,6 @@ a.text-info:focus, a.text-info:hover {
 a.bg-primary:focus, a.bg-primary:hover {
   background-color: #0015cc
 }
-
-.bg-success, a.bg-success:focus, a.bg-success:hover {
-  background-color: #000
-}
-
 .bg-info {
   background-color: #d9edf7
 }
