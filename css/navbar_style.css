@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 #mainListDiv {
   float: left;
   color: black;
@@ -12,19 +13,23 @@
   line-height: 25px;
   border-radius: 4px;
 }
+
 #mainListDiv-right {
   float: right;
 }
+
 #mainListDiv-right {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
 }
-  .nav div.main_list ul li-right {
-    float: none;
-  }
+
+.nav div.main_list ul li-right {
+  float: none;
+}
 
 .nav {
+  position: absolute;
   margin-right: 20%;
   margin-left: auto;
   padding-left: 15px;
@@ -43,8 +48,8 @@
 }
 
 .nav div.main_list {
-    height: 65px;
-    float: right;
+  height: 65px;
+  float: right;
 }
 
 .nav div.main_list ul {
@@ -58,24 +63,22 @@
 }
 
 .nav div.main_list ul li {
-    width: auto;
-    height: 65px;
-    padding: 0;
-    padding-right: 3rem;
+  width: auto;
+  height: 65px;
+  padding: 0;
+  padding-right: 3rem;
 }
 
 .nav div.main_list ul li a {
-    text-decoration: none;
-    color:  #777;
-    line-height: 50px;
-    font-size: 1rem;
+  text-decoration: none;
+  color: #777;
+  line-height: 50px;
+  font-size: 1rem;
 }
 
 .nav div.main_list ul li a:hover {
-    color: #a6a6a4;
+  color: #a6a6a4;
 }
-
-
 
 @media (min-width:768px) {
   .nav div.main_list {
@@ -89,36 +92,37 @@
     display: block;
     text-align: left;
   }
-  }
-  @media (min-width:768px) {
-    .nav div.main_list{
-      margin-left: -15px
-    }
-  }
+}
 
-  @media (min-width:768px) {
-    .nav div.main_list{
-      margin-right: 0;
-      margin-left: 0
-    }
+@media (min-width:768px) {
+  .nav div.main_list {
+    margin-left: -15px
   }
+}
 
-  @media (min-width:768px) {
-    .navbar-static-top {
-      border-radius: 0
-    }
+@media (min-width:768px) {
+  .nav div.main_list {
+    margin-right: 0;
+    margin-left: 0
   }
+}
 
-  @media (max-device-width:480px) and (orientation:landscape) {
-    .nav div.main_list{
-      max-height: 200px
-    }
+@media (min-width:768px) {
+  .navbar-static-top {
+    border-radius: 0
   }
+}
 
-  @media (min-width:768px) {
-    .nav div.main_list{
-      width: auto;
-      border-top: 0;
-      box-shadow: none
-    }
+@media (max-device-width:480px) and (orientation:landscape) {
+  .nav div.main_list {
+    max-height: 200px
+  }
+}
+
+@media (min-width:768px) {
+  .nav div.main_list {
+    width: auto;
+    border-top: 0;
+    box-shadow: none
+  }
 }
