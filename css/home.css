@@ -39,3 +39,7 @@
   padding-left: 15px;
   padding-right: 15px
 }
+
+body.homepage {
+  background-image: url('./images/space.jpg');
+}
