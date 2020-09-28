@@ -1,6 +1,6 @@
 .frame {
   max-width: 400px;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -12,6 +12,7 @@
 #frame button[type="submit"] {
   font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
   text-align: center;
+  align-items: center;
 }
 
 #frame {
@@ -73,7 +74,7 @@
   border: none;
   background: #000;
   color: #FFF;
-  margin: 0 0 5px;
+  margin: 0 0 0px;
   padding: 10px;
   font-size: 15px;
 }
@@ -109,4 +110,48 @@
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem
+}
+
+.item1 {
+  grid-column: 1fr;
+}
+
+.item2 a {
+  grid-column: 1fr;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-self: center;
+}
+
+.one {
+  grid-row: 1fr;
+}
+
+.two {
+  grid-row: 1fr;
+}
+
+.three {
+  grid-row: 1fr;
+}
+
+.four {
+  grid-row: 1fr;
+}
+
+.five {
+  grid-row: 1fr;
+}
+
+.six {
+  grid-row: 1fr;
 }
