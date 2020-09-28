@@ -3,15 +3,14 @@
 @import "navbar_style.css";
 @import "header_footer_style.css";
 @import "home.css";
-@import "main1.css";
 @import "contactme.css";
+
 /*I usedBootstrap v3.3.7 (http://getbootstrap.com)*/
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   margin: 0;
-
 }
 
 a {
@@ -198,6 +197,15 @@ p {
 a.text-primary:focus, a.text-primary:hover {
   color: #0015cc
 }
+
+.text-success {
+  color: #fff
+}
+
+a.text-success:focus, a.text-success:hover {
+  color: #e6e6e6
+}
+
 .text-info {
   color: #31708f
 }
@@ -214,20 +222,17 @@ a.text-info:focus, a.text-info:hover {
 a.bg-primary:focus, a.bg-primary:hover {
   background-color: #0015cc
 }
+
+.bg-success, a.bg-success:focus, a.bg-success:hover {
+  background-color: #000
+}
+
 .bg-info {
   background-color: #d9edf7
 }
 
 a.bg-info:focus, a.bg-info:hover {
   background-color: #afd9ee
-}
-
-.bg-warning {
-  background-color: #fcf8e3
-}
-
-a.bg-warning:focus, a.bg-warning:hover {
-  background-color: #f7ecb5
 }
 
 .bg-danger {
@@ -313,7 +318,6 @@ dd {
 .initialism {
   font-size: 90%
 }
-
 
 .container {
   margin-right: auto;
@@ -479,7 +483,6 @@ output {
   user-select: none
 }
 
-
 .btn-default {
   color: #000;
   background-color: transparent;
@@ -515,7 +518,7 @@ output {
   padding: 1px 5px
 }
 
-.list-group-item.active>.badge{
+.list-group-item.active>.badge {
   color: #001aff;
   background-color: #fff
 }
@@ -527,8 +530,6 @@ output {
 .list-group-item>.badge+.badge {
   margin-right: 5px
 }
-
-
 
 a.badge:focus, a.badge:hover {
   color: #fff;
@@ -844,7 +845,6 @@ a.badge:focus, a.badge:hover {
   color: #fff
 }
 
-
 .btn {
   -webkit-transition: all .2s linear;
   -o-transition: all .2s linear;
@@ -867,24 +867,6 @@ a.badge:focus, a.badge:hover {
   color: #fff;
   border-color: #5bc0de;
   background-color: #5bc0de
-}
-
-.btn-success:focus, .btn-success:hover {
-  color: #fff;
-  border-color: #5cb85c;
-  background-color: #5cb85c
-}
-
-.btn-danger:focus, .btn-danger:hover {
-  color: #fff;
-  border-color: #d9534f;
-  background-color: #d9534f
-}
-
-.btn-warning:focus, .btn-warning:hover {
-  color: #fff;
-  border-color: #f0ad4e;
-  background-color: #f0ad4e
 }
 
 body, p {
@@ -1002,8 +984,8 @@ textarea {
 .black-image-project-hover img:hover {
   filter: none
 }
-0
-@media (max-width:768px) {
+
+0 @media (max-width:768px) {
   .projects-carousel .carousel-control {
     display: none
   }
@@ -1055,3 +1037,27 @@ textarea {
     left: -12px
   }
 }
+
+.col-md-12, .col-md-8, .col-md-6 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+@media (min-width:992px) {
+  .col-md-6, .col-md-8, .col-md-12 {
+    float: left
+  }
+
+  .col-md-12 {
+    width: 100%
+  }
+
+  .col-md-8 {
+    width: 66.66667%
+  }
+
+  .col-md-6 {
+    width: 50%
+  }
