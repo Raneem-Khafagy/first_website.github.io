@@ -150,6 +150,18 @@ p {
   margin: 0 0 9.5px
 }
 
+p.bold{
+  font-weight: bold;
+}
+
+p.underline{
+  text-decoration: underline;
+}
+
+p.italic{
+  font-style: italic;
+}
+
 .text-left {
   text-align: left
 }
@@ -193,18 +205,21 @@ ul {
   .container {
     width: 750px
   }
+
 }
 
 @media (min-width:992px) {
   .container {
     width: 970px
   }
+
 }
 
 @media (min-width:1200px) {
   .container {
     width: 1170px
   }
+
 }
 
 .container-fluid {
@@ -363,12 +378,14 @@ p {
   .h2, h2 {
     padding: 0 30px
   }
+
 }
 
 @media (max-width:992px) {
   .h2:after, .h2:before, h2:after, h2:before {
     display: none
   }
+
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
@@ -393,6 +410,7 @@ textarea {
   .address-container {
     margin-top: 20px
   }
+
 }
 
 .card-container {
@@ -408,6 +426,7 @@ textarea {
     padding: 2rem;
     margin-top: -5em
   }
+
 }
 
 @media (max-width:992px) {
@@ -416,6 +435,7 @@ textarea {
     padding: 2rem 3em;
     margin-top: -10em
   }
+
 }
 
 .black-image-project-hover {
@@ -457,6 +477,7 @@ textarea {
   .col-md-6 {
     width: 50%
   }
+
 }
 
 .software{
@@ -464,6 +485,7 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+
 .section-container {
     padding: 60px 0;
 }
