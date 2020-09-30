@@ -53,30 +53,26 @@
           </div>
 
           <div class="item2">
-            
+
               <img src="./images/profil.jpg" class="img-responsive" alt="">
-              
+
 
           </div>
         </div>
       </div>
     </div>
 
-    <form class="grid2" method="post">
+    <form method="post" action="contact.php" method="post" id="form" class="contact-form">
       <h3 class="text-center">Contact me</h3>
       <h4 class="text-center">for any wrok or collab</h4>
 
-      <input class="one" placeholder="Your name" type="text" tabindex="1" required>
+      <input placeholder="Your name" type="text" tabindex="1" required name=”cf_name”>
 
-      <input class="two" placeholder="Your Email Address" type="email" tabindex="2" required>
+      <input placeholder="Your Email Address" type="email" tabindex="2" requiredname=”cf_email”>
 
-      <input class="three" placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+      <textarea  placeholder="Type your message here...." tabindex="5" required name=”cf_message”></textarea>
 
-      <input class="four" placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-
-      <textarea class="five" placeholder="Type your message here...." tabindex="5" required></textarea>
-
-      <button class="six" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
 
       <div class="text-center">
         <h3>Follow me on social networks</h3>
