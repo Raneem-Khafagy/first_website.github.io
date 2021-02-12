@@ -6,7 +6,7 @@ This project requires me to utilize my HTML and CSS skills to build out a respon
 - bootstrap
 - CSS 
 used flexbox and css grid
-![click here](https://raneem-khafagy.github.io/personal-blog/)
+
 This is my first website developed so it is just the beginning and i still have a long way to go.
 Thanks.
-
+[link to the website](https://raneem-khafagy.github.io/personal-blog/)
