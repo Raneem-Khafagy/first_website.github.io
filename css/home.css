@@ -48,3 +48,10 @@
 body.homepage {
   background-image: url('./images/space.jpg');
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
