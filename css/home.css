@@ -2,6 +2,11 @@
   vertical-align: middle;
   display: table-cell
 }
+.background-image-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top
+}
 
 .hero-full-container {
   height: 100vh
